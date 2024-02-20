@@ -1,13 +1,13 @@
 <?php require ("session_controller.php"); ?>
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en" style="background-color: white !important;">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
 
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 <title><?php echo $sitename; ?> - <?php echo $fullname; ?></title>
-	<link rel="icon" type="image/png" href="../access/images/mylogo2.png">
+    <link href="../homepage/assets/img/1.png" rel="icon">
 	
 		<!-- toast -->
 
@@ -86,13 +86,13 @@ left: 4%;
 
 </style>
 </head>
-<body class="crm_body_bg">
+<body class="crm_body_bg" style="background-color: white !important;">
 
 
 <nav class="sidebar">
 <div class="logo">
 
-<h5 class="">Available Balance. <br/> <span style="color: red;font-weight: bold;font-size: 30px;"> ₦<?php echo number_format($Account_Balance,2); ?></span></h5>
+<h5 class="">Available Balance. <br/> <span style="color: rgb(113,2,192);font-weight: bold;font-size: 30px;"> ₦<?php echo number_format($Account_Balance,2); ?></span></h5>
 <div class="sidebar_close_icon d-lg-none">
 <i class="ti-close"></i>
 </div>
@@ -309,7 +309,7 @@ left: 4%;
 
 </li>
 <li>
-<a class="bell_notification_clicker" href="#" onclick="PopUp()"> <img src="backend/img/icon/bell.svg" alt="">
+<a class="bell_notification_clicker" href="#" onclick="PopUp()"> <img src="backend/img/icon/notification_bell.png" alt="" style="height: 80px; width: 80px; margin-right: -1em">
 <span>1</span>
 </a>
 
@@ -319,23 +319,23 @@ left: 4%;
 
 if ($rating ==0){
 echo '<li>
-<a class="CHATBOX_open" onclick="openRate()" href="#"> <i class="fa fa-star" style="color: orange; font-size: 24px;border-color: black;"></i><span><i class="fa fa-star"></i></span> </a>
+<a class="CHATBOX_open" onclick="openRate()" href="#"> <img src="backend/img/icon/rate_icon.png" alt="" style="height: 80px; width: 80px; margin-right: -1em"> </a>
 </li>';
 }
 ?>
 
 </div>
 <div class="profile_info">
-<img src="backend/img/customer-image.png" alt="#">
+<img src="backend/img/profile.jpg" alt="#">
 <div class="profile_info_iner">
 <div class="profile_author_name">
 <p>Welcome </p>
 <h5><?php echo $fullname; ?></h5>
 </div>
 <div class="profile_info_details">
-<a href="<?php echo $baseurl; ?>/profile">My Profile </a>
-<a href="<?php echo $baseurl; ?>/change_password">Settings</a>
-<a href="<?php echo $baseurl; ?>/logout">Log Out </a>
+    <a href="<?php echo $baseurl; ?>/profile">My Profile </a>
+    <a href="<?php echo $baseurl; ?>/change_password">Settings</a>
+    <a href="<?php echo $baseurl; ?>/logout">Log Out </a>
 </div>
 
 </div>

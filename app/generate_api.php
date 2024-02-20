@@ -1,7 +1,7 @@
 <?php require("site_header.php"); ?>
 
 
-<div class="main_content_iner overly_inner ">
+<div class="main_content_iner overly_inner"  style="background-color: white !important;">
 <div class="container-fluid p-0 ">
 
 <div class="row">
@@ -36,7 +36,7 @@
 <div class="p-5">
     <hr>
 
-	<p style="color: red;">Copy the above API-key and use that in your request body when integrating our website API.</p>
+	<p style="color: rgb(113,2,192);">Copy the above API-key and use that in your request body when integrating our website API.</p>
 
 	<br>
 

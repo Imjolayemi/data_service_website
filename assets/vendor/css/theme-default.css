@@ -100,7 +100,7 @@
 }
 
 .text-body[href]:hover {
-  color: #5f61e6 !important;
+  color: white !important;
 }
 
 .bg-primary {
@@ -341,9 +341,11 @@ button.list-group-item-primary.active {
 
 .form-control:focus ~ .form-label {
   border-color: #696cff;
+  color: white !important;
 }
 .form-control:focus ~ .form-label::after {
   border-color: inherit;
+  color: white !important;
 }
 
 .divider.divider-primary .divider-text:before, .divider.divider-primary .divider-text:after {

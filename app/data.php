@@ -25,7 +25,7 @@ require ("request_pin.php");
           </span>
           <br/>
 
-           <span style="color: red;font-weight: bold;font-size: 39px;">₦ <?php echo number_format($Account_Balance,2); ?></span>
+           <span style="color: rgb(113,2,192);font-weight: bold;font-size: 39px;">₦ <?php echo number_format($Account_Balance,2); ?></span>
          
         </div>
                 
@@ -75,10 +75,7 @@ require ("request_pin.php");
 </div>
 
 <br>
-
-<div class="input-group mb-3">
-<div class="input-group-text">
-<span class="" id="basic-addon1"><i class="fa fa-shopping-cart" style="font-size: 25px;"></i></span>
+ id="basic-addon1"><i class="fa fa-shopping-cart" style="font-size: 25px;"></i></span>
 </div>
 <input type="hidden"  id="req_token" value="<?php echo $_SESSION['csrftoken']; ?>">
 <select class="form-control" id="dataplanloader" required>
@@ -107,7 +104,7 @@ require ("request_pin.php");
 <br>
 <br>
 <!--<input type="hidden" id="validate">-->
-<button class="btn btn-success btn-block" style="width: 100%" id="submitBtn">BUY NOW</button>
+<button class="btn btn-success btn-block" style="width: 100%; background-color: rgb(113,2,192);" id="submitBtn">BUY NOW</button>
 
 <br>
 <br>

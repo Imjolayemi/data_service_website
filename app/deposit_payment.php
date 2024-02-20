@@ -19,10 +19,10 @@
           </span>
           <br/>
 
-           <span style="color: red;font-weight: bold;font-size: 39px;">₦ <?php echo number_format($Account_Balance,2); ?></span>
+           <span style="color: rgb(113,2,192); font-weight: bold;font-size: 39px;">₦ <?php echo number_format($Account_Balance,2); ?></span>
          <br/>
          <span>After Successful Transaction Contact Admin with Evidence of payment and E-mail &#8614&#8614
-            <a href="https://api.whatsapp.com/send?phone=2347048561410&text=Hello%20admin!%20help%20fund%20my%20%20wallet%20@%20E-mail=%20" style="font-size: 25px" >Admin</a>
+            <a href="https://api.whatsapp.com/send?phone=2348130906009&text=Hello%20admin!%20help%20fund%20my%20%20wallet%20@%20E-mail=%20" style="font-size: 25px" >Admin</a>
           </span>
         </div>
                 

@@ -13,7 +13,7 @@ if ($security != "" && $security !=0){
 ?>
 
 
-<div class="main_content_iner overly_inner ">
+<div class="main_content_iner overly_inner " style="background-color: white !important;">
 <div class="container-fluid p-0 ">
 
 <div class="row">
@@ -37,7 +37,7 @@ if ($security != "" && $security !=0){
 <div class="white_card_header">
 <div class="main-title">
 <h3 class="m-0"><?php echo strtoupper($domain); ?></h3>
-<span style="color: red;">Please use a secure 5digits pin</span>
+<span style="color: rgb(113,2,192);">Please use a secure six(6) digits pin</span>
 </div>
 </div>
 
@@ -57,7 +57,7 @@ if ($security != "" && $security !=0){
 <div class="input-group-text">
 <span class="" id="basic-addon1"><i class="fa fa-unlock-alt" style="font-size: 25px;"></i></span>
 </div>
-<input type="password" class="form-control" maxlength="5" placeholder="New Pin"  id="new_pin" required>
+<input type="password" class="form-control" maxlength="6" placeholder="New Pin"  id="new_pin" required>
 </div>
 
 <br>
@@ -67,12 +67,12 @@ if ($security != "" && $security !=0){
 <span class="" id="basic-addon1"><i class="fa fa-unlock-alt" style="font-size: 25px;"></i></span>
 </div>
 <input type="hidden"  id="req_token" value="<?php echo $_SESSION['csrftoken']; ?>">
-<input type="password" class="form-control" maxlength="5" placeholder="Confirm Pin" id="retype_pin" required>
+<input type="password" class="form-control" maxlength="6" placeholder="Confirm Pin" id="retype_pin" required>
 </div>
 
 <br>
 
-<button class="btn btn-success btn-block" style="width: 100%">SUBMIT</button>
+<button class="btn btn-success btn-block" style="width: 100%; background-color: rgb(113,2,192);">SUBMIT</button>
 
 <br>
 <br>

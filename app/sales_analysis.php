@@ -1,5 +1,5 @@
 <?php require("site_header.php"); ?>
-<div class="alert">
+<div class="alert" style="background-color: white !important;">
 <div class="col-xl-12">
 <div class="alert" style="background-color: #fff;color: blue;">
 
@@ -19,7 +19,7 @@
           </span>
           <br/>
 
-           <span style="color: red;font-weight: bold;font-size: 39px;">₦ <?php echo number_format($Account_Balance,2); ?></span>
+           <span style="color: rgb(113,2,192);font-weight: bold;font-size: 39px;">₦ <?php echo number_format($Account_Balance,2); ?></span>
          
         </div>
                 
@@ -66,7 +66,7 @@
   </select>
   <hr/>
 
-<button class="btn btn-block btn-success" onclick="querSearch()" style="width: 100%">Search</button>
+<button class="btn btn-block btn-success" onclick="querSearch()" style="width: 100%; background-color: rgb(113,2,192);">Search</button>
 <?php
 $dateTime = new DateTime('now', new DateTimeZone('Africa/Lagos')); 
 $time=$dateTime->format("d-M-y");

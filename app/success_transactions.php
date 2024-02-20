@@ -1,7 +1,7 @@
 <?php require("site_header.php"); ?>
 
 
-<div class="main_content_iner">
+<div class="main_content_iner" style="background-color: white !important;">
 <div class="container-fluid p-0 sm_padding_15px">
 <div class="row justify-content-center">
 
@@ -10,7 +10,7 @@
 <div class="alert" style="background-color: #fff;color: #000;">
 
 	<input type="text" id="search_data" class="form-control" placeholder="Search Mobile No.">
-    <hr/><button class="btn btn-danger" onclick="findRec()">Search</button>
+    <hr/><button class="btn btn-danger" onclick="findRec()" style="background-color: rgb(113,2,192); border:none;">Search</button>
 </div>
 
 

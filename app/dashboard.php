@@ -1,11 +1,12 @@
 <?php require("site_header.php"); ?>
+
 <?php
 
 if ($notification_mode=="ON"){
+
 ?>
 
-   <script type="text/javascript">
-  
+<script type="text/javascript">
   $(document).ready(function () {
   $("#myModal3").modal("show");
   })
@@ -17,14 +18,14 @@ if ($notification_mode=="ON"){
 
 ?>
 
-<div class="alert">
+<div class="alert" style="background-color: white !important;">
 
 <div class="col-xl-12">
 <div class="alert" style="background-color: #fff;display: <?php echo $notification1_mode; ?>;">
 
-        <div id="response" style="text-align: center;">
-          <p><?php echo $notification1; ?></p>
-        </div>
+    <div id="response" style="text-align: center;">
+        <p><?php echo $notification1; ?></p>
+    </div>
                 
 </div>
 </div>
@@ -51,27 +52,30 @@ if ($notification_mode=="ON"){
 
 
 <div class="col-xl-12">
-<span style="color:blue"><marquee><?php if ($scrolling_mode=="ON"){ echo $notification_scroll; } ?> </marquee></span>
-<div class="alert" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;">
+    <span style="color:black; font-weight:bold;">
+    <div class="animated-text"><?php if ($scrolling_mode=="ON"){ echo $notification_scroll; } ?> 
+    </div>
+    </span>
+    <div class="alert" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; border-radius: 7px;">
 
-        <div id="response" style="text-align: left;">
-          <span>Available Balance 
-            <span style="float: right;"><button class="btn btn-dark" onclick="FundWallet()">Fund Wallet</button></span>
-          </span>
-          <br/>
+            <div id="response" style="text-align: left;">
+            <span>Available Balance 
+                <span style="float: right;"><button class="btn btn-dark" onclick="FundWallet()">Fund Wallet</button></span>
+            </span>
+            <br/>
 
-           <span style="color: red;font-weight: bold;font-size: 39px;">₦<?php echo number_format($Account_Balance,2); ?></span>
-         
-        </div>
-                
-</div>
+            <span style="color: rgb(113,2,192);font-weight: bold;font-size: 39px;">₦<?php echo number_format($Account_Balance,2); ?></span>
+            
+            </div>
+                    
+    </div>
 </div>
 
 <div class="col-xl-12">
 <div class="alert" style="background-color: transparent;">
           <center>
           <a href="<?php echo $baseurl; ?>/sales_analysis"><span class="btn btn-warning">Sales Summary</span></a>
-          <a href="<?php echo $baseurl; ?>/transactions"><span class="btn btn-danger">My Transactions</span></a>
+          <a href="<?php echo $baseurl; ?>/transactions"><span class="btn btn-danger" style="background-color: rgb(113,2,192); border: none;">My Transactions</span></a>
           </center>              
 </div>
 </div>
@@ -79,14 +83,14 @@ if ($notification_mode=="ON"){
 
 <!-- Option-section -->
 <center>
-                <div class="alert" style="background-color: #fff;color:#fff;border-radius: 7px 7px;">
+                <div class="alert" style="background-color: #fff;color:#fff;border-radius: 17px;">
                 <div class="option-section mb-15">
                     <div class="row gx-3">
                         <div class="col pb-15" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;height: 100px;border-radius: 28px;margin: 8px;">
                             <div class="option-card border-2 border-rose-600">
                                 <a href="<?php echo $baseurl; ?>/airtime_vtu">
                                     <div class="option-card-icon">
-                                   <i class="fa fa-phone" style="font-size: 35px;color: #71036E;margin: 13px;"></i>
+                                   <i class="fa fa-phone" style="font-size: 35px;color: rgb(113,2,192);margin: 13px;"></i>
                                     </div>
                                     <p style="font-weight:bold;font-size:12px;">Airtime</p>
                                 </a>
@@ -96,7 +100,7 @@ if ($notification_mode=="ON"){
                             <div class="option-card">
                                 <a href="<?php echo $baseurl; ?>/data">
                                     <div class="option-card-icon">
-                               <i class="fa fa-wifi" style="font-size: 35px;color: #71036E;margin: 13px;"></i>
+                               <i class="fa fa-wifi" style="font-size: 35px;color: rgb(113,2,192);margin: 13px;"></i>
                                     </div>
                                     <p style="font-weight:bold;font-size:12px;">Buy Data</p>
                                 </a>
@@ -106,7 +110,7 @@ if ($notification_mode=="ON"){
                             <div class="option-card">
                                 <a href="<?php echo $baseurl; ?>/data_card">
                                     <div class="option-card-icon">
-                               <i class="fa fa-circle-nodes" style="font-size: 35px;color: #71036E;margin: 13px;"></i>
+                               <i class="fa fa-circle-nodes" style="font-size: 35px;color: rgb(113,2,192);margin: 13px;"></i>
                                     </div>
                                     <p style="font-weight:bold;font-size:12px;">Buy Data Card</p>
                                 </a>
@@ -120,7 +124,7 @@ if ($notification_mode=="ON"){
                             <div class="option-card">
                                 <a href="https://chat.whatsapp.com/BrbRwHtY5egCRoEhc9nJGy">
                                     <div class="option-card-icon">
-                        <i class="fa-brands fa-whatsapp" style="font-size: 35px;color: #71036E;margin: 13px;"></i>
+                        <i class="fa-brands fa-whatsapp" style="font-size: 35px;color: rgb(113,2,192);margin: 13px;"></i>
                                     </div>
                                     <p style="font-weight:bold;font-size:70%;">WhatsApp Link</p>
                                 </a>
@@ -130,7 +134,7 @@ if ($notification_mode=="ON"){
                             <div class="option-card">
                                 <a href="<?php echo $baseurl; ?>/cable">
                                     <div class="option-card-icon">
-                               <i class="fa fa-tv" style="font-size: 35px;color: #71036E;margin: 13px;"></i>
+                               <i class="fa fa-tv" style="font-size: 35px;color: rgb(113,2,192);margin: 13px;"></i>
                                     </div>
                                     <p style="font-weight:bold;font-size:12px;">CableTv</p>
                                 </a>
@@ -140,7 +144,7 @@ if ($notification_mode=="ON"){
                             <div class="option-card">
                                 <a href="<?php echo $baseurl; ?>/automated_pay">
                                     <div class="option-card-icon">
-                        <i class="fa fa-wallet" style="font-size: 35px;color: #71036E;margin: 13px;"></i>
+                        <i class="fa fa-wallet" style="font-size: 35px;color: rgb(113,2,192);margin: 13px;"></i>
                                     </div>
                                     <p style="font-weight:bold;font-size:40%;">WEMA BANK - <?php echo $sterling?></p>
                                 </a>
@@ -154,7 +158,7 @@ if ($notification_mode=="ON"){
                             <div class="option-card">
                                 <a href="<?php echo $baseurl; ?>/bills">
                                     <div class="option-card-icon">
-                        <i class="fa fa-lightbulb" style="font-size: 35px;color: #71036E;margin: 13px;"></i>
+                        <i class="fa fa-lightbulb" style="font-size: 35px;color: rgb(113,2,192);margin: 13px;"></i>
                                     </div>
                                     <p style="font-weight:bold;font-size:12px;">Pay Bills</p>
                                 </a>
@@ -164,7 +168,7 @@ if ($notification_mode=="ON"){
                             <div class="option-card">
                                 <a href="<?php echo $baseurl; ?>/epins">
                                     <div class="option-card-icon">
-                        <i class="fa fa-qrcode" style="font-size: 35px;color: #71036E;margin: 13px;"></i>
+                        <i class="fa fa-qrcode" style="font-size: 35px;color: rgb(113,2,192);margin: 13px;"></i>
                                     </div>
                                     <p style="font-weight:bold;font-size:12px;">Buy E-Pins</p>
                                 </a>
@@ -175,7 +179,7 @@ if ($notification_mode=="ON"){
                                 <a href="<?php echo $baseurl; ?>/withdraw">
                                     <div class="option-card-icon">
 
-                      <i class="fa fa-download" style="font-size: 35px;margin: 13px;color: #71036E"></i>
+                      <i class="fa fa-download" style="font-size: 35px;margin: 13px;color: rgb(113,2,192)"></i>
                                     </div>
                                     <p style="font-weight:bold;font-size:12px;">Withdraw</p>
                                 </a>
@@ -190,7 +194,7 @@ if ($notification_mode=="ON"){
                             <div class="option-card">
                          <a href="<?php echo $baseurl; ?>/bulk_sms">
                                     <div class="option-card-icon">
-                   <i class="fa fa-envelope" style="font-size: 35px;color: #71036E;margin: 13px;"></i>
+                   <i class="fa fa-envelope" style="font-size: 35px;color: rgb(113,2,192);margin: 13px;"></i>
                                     </div>
                                     <p style="font-weight:bold;font-size:12px;">Bulk SMS</p>
                                 </a>
@@ -200,7 +204,7 @@ if ($notification_mode=="ON"){
                             <div class="option-card">
                                 <a href="<?php echo $baseurl; ?>/exchange_airtime">
                                     <div class="option-card-icon">
-                    <i class="fa fa-wallet" style="font-size: 35px;margin: 13px;color: #71036E"></i>
+                    <i class="fa fa-wallet" style="font-size: 35px;margin: 13px;color: rgb(113,2,192)"></i>
                                     </div>
                                     <p style="font-weight:bold;font-size:12px;">Swap Airtime</p>
                                 </a>
@@ -210,7 +214,7 @@ if ($notification_mode=="ON"){
                             <div class="option-card">
                                 <a href="https://t.me/+bTURIQ0FPmExMzc8">
                                     <div class="option-card-icon">
-                        <i class="fa fa-paper-plane" style="font-size: 35px;color: #71036E;margin: 13px;"></i>
+                        <i class="fa fa-paper-plane" style="font-size: 35px;color: rgb(113,2,192);margin: 13px;"></i>
                                     </div>
                                     <p style="font-weight:bold;font-size:12px;">Telegram Link</p>
                                 </a>
@@ -220,7 +224,7 @@ if ($notification_mode=="ON"){
                         <!--    <div class="option-card">-->
                         <!--        <a href="https://chat.whatsapp.com/EhReeyw69i813aOTdEpcb8">-->
                         <!--            <div class="option-card-icon">-->
-                        <!--<i class="fa-brands fa-whatsapp" style="font-size: 35px;color: #71036E;margin: 13px;"></i>-->
+                        <!--<i class="fa-brands fa-whatsapp" style="font-size: 35px;color: rgb(113,2,192);margin: 13px;"></i>-->
                         <!--            </div>-->
                         <!--            <p style="font-weight:bold;font-size:12px;">WhatsApp Link</p>-->
                         <!--        </a>-->
@@ -237,9 +241,9 @@ if ($notification_mode=="ON"){
 <div class="alert" style="background-color: #fff">
 
         <div id="response"></div>
-                 <label style="color: red;">Refer a friend and earn extra cash on <?php echo $sitename; ?></label>
-                 <p>Get 50% bonus immediately a user you referred upgrade to level 2 or 3.</p>
-                 <p class="text-dark" style="font-weight: bold;">Referral Link <span><?php echo $mainpage; ?>/register?referral=<?php echo $ref_code; ?></span> <i class="fa fa-copy" style="font-size: 13px;cursor: pointer;" onclick="copyFunction()">Copy</i> <span id="refres"></span></p>
+                <label style="color: rgb(113,2,192);">Refer a friend and earn extra cash on <?php echo $sitename; ?></label>
+                <p>Get 50% bonus immediately a user you referred upgrade to level 2 or 3.</p>
+                <p class="text-dark" style="font-weight: bold;">Referral Link.<span><?php echo $mainpage; ?>/register?referral=<?php echo $ref_code; ?></span><i class="fa fa-copy" style="font-size: 13px;cursor: pointer;" onclick="copyFunction()">Copy</i> <span id="refres"></span></p>
                  <input type="hidden"  id="req_token" value="<?php echo $_SESSION['csrftoken']; ?>">
                  <select class="form-control" id="level">
                    <option value="">--Choose--</option>
@@ -249,20 +253,20 @@ if ($notification_mode=="ON"){
                  </select>
             
                <br/>
-                 <button class="btn btn-success btn-block" style="width: 100%" id="upgrade">UPGRADE</button>
+                 <button class="btn btn-success btn-block" id="upgrade" style="background-color: rgb(113,2,192); border: none; width: 100%;">UPGRADE</button>
 </div>
 
 <div class="alert" style="background-color: #fff">
 
         <div id="response"></div>
-                 <label style="color: red;">Do you have any challengies ? We love to hear from you. Reach us anytime.</label>
-                 <input type="hidden"  id="req_token" value="<?php echo $_SESSION['csrftoken']; ?>">
-                 <textarea class="form-control" id="message" required="required" placeholder="Write your message..."></textarea>
-            
-               <br/>
+        <label style="color: rgb(113,2,192);">Do you have any challengies ? We love to hear from you. Reach us anytime.</label>
+        <input type="hidden"  id="req_token" value="<?php echo $_SESSION['csrftoken']; ?>">
+        <textarea class="form-control" id="message" required="required" placeholder="Write your message...">
+        </textarea>
+        <br/>
 
-                 <button class="btn btn-success btn-block" id="contactus">Contact Us</button>
-                 <button class="btn btn-warning btn-block" id="#">Report</button>
+        <button class="btn btn-success btn-block" id="contactus" style="background-color: rgb(113,2,192); border: none;">Contact Us</button>
+        <button class="btn btn-warning btn-block" id="#">Report</button>
             
 </div>
 </div>

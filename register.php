@@ -11,7 +11,6 @@ $myrefferal="ADMIN";
 <!DOCTYPE html>
 <html
   lang="en"
-  class="light-style customizer-hide"
   dir="ltr"
   data-theme="theme-default"
   data-assets-path="assets/"
@@ -29,6 +28,7 @@ $myrefferal="ADMIN";
     <meta name="description" content="" />
 
     <!-- Favicon -->
+    <link href="../homepage/assets/img/1.png" rel="icon">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
 
     <!-- Fonts -->
@@ -54,11 +54,20 @@ $myrefferal="ADMIN";
     <!-- Page -->
     <link rel="stylesheet" href="assets/vendor/css/pages/page-auth.css" />
     <!-- Helpers -->
+
+    <!--input box -->
+    <style>
+        input {
+          background-color: transparent !important;
+            color: white !important;
+            caret-color: white !important;
+        }
+    </style>
     <script src="assets/vendor/js/helpers.js"></script>
     <script src="assets/js/config.js"></script>
   </head>
 
-  <body>
+  <body class="light-style">
     <!-- Content -->
 
     <div class="container-xxl">
@@ -78,7 +87,7 @@ $myrefferal="ADMIN";
                 </a>
               </div>
               <!-- /Logo -->
-            <h3>Enjoy - <strong><?php echo strtoupper($sitename); ?></strong></h3>
+            <h3 class="mb-2">Enjoy - <strong><?php echo strtoupper($sitename); ?></strong></h3>
             <p class="mb-4">Provide your valid creditials and sign in.</p>
 
             <div id="response"></div>

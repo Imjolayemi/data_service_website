@@ -57,7 +57,7 @@ else {
 
  if ($network=="MTN-DATACARD" && $mtndatacard_lock1==1 && $mtndatacard_access==1){
 
-    require("dataCardModule/$api_mtndatacard");
+    require("dataCardModule/$");
 }
 
 // else if ($network=="MTN-CG" && $mg_lock1==1 && $mtncg_access==1 || $network=="GIFTING" && $mg_lock1==1 && $mtncg_access==1){
@@ -108,4 +108,4 @@ else {
 }
 
 
-?>
+?>api_mtndatacard

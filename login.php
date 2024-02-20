@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html
   lang="en"
-  class="light-style customizer-hide"
+  
   dir="ltr"
   data-theme="theme-default"
   data-assets-path="assets/"
@@ -21,6 +21,7 @@
     <meta name="description" content="" />
 
     <!-- Favicon -->
+    <link href="../homepage/assets/img/1.png" rel="icon">
     <!--<link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />-->
 
     <!-- Fonts -->
@@ -45,12 +46,24 @@
     <!-- Page CSS -->
     <!-- Page -->
     <link rel="stylesheet" href="assets/vendor/css/pages/page-auth.css" />
+    <!-- <link href="homepage/assets/css/main.css" rel="stylesheet"> -->
     <!-- Helpers -->
+
+    <!--input box -->
+    <style>
+        input {
+          background-color: transparent !important;
+            color: white !important;
+            caret-color: white !important;
+        }
+    </style>
+
+
     <script src="assets/vendor/js/helpers.js"></script>
     <script src="assets/js/config.js"></script>
   </head>
 
-  <body>
+  <body class="light-style">
     <!-- Content -->
 
     <div class="container-xxl">
@@ -73,15 +86,15 @@
               <b><h5 class="mb-2">Welcome to <?php echo $sitename; ?>! 👋</h5></b>
               <p class="mb-4">Please sign-in to your account and start the adventure</p>
 
-            <div id="response"></div>
-            <form id="form-data">
+              <div id="response"></div>
+              <form id="form-data">
 
                 <div class="mb-3">
-                  <label for="email" class="form-label">Email</label>
+                  <label for="email" class="form-label  mb-2">Email</label>
                   <input type="hidden"  id="req_token" value="<?php echo $_SESSION['csrftoken']; ?>">
                   <input
                     type="text"
-                    class="form-control"
+                    class="form-control mb-2"
                     id="username"
                     placeholder="Enter your email"
                     autofocus
@@ -115,7 +128,7 @@
                   <button class="btn btn-primary d-grid w-100" id="submitBtn">Sign In</button>
                 </div>
         
-</form>
+              </form>
               <p class="text-center">
                 <span>New on our platform?</span>
                 <a href="<?php echo $mainpage; ?>/register">

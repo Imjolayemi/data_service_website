@@ -67,6 +67,7 @@ else {
 
  if ($network=="MTN" && $m_lock1==1 && $mtnsme_access==1){
 
+    // require("dataModule/$api_mtn");
     require("dataModule/$api_mtn");
 }
 

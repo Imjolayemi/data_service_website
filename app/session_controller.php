@@ -1,6 +1,6 @@
 <?php
-require("../functions/autoload.php");
 session_start();
+require("../functions/autoload.php");
 
 $time=$_SERVER['REQUEST_TIME'];
 $timeout_duration=1800;
@@ -15,7 +15,6 @@ $try_session=mysqli_query($con, "SELECT * FROM users WHERE email='".$_SESSION['u
      session_destroy();
      header('location:../login?access=0');
      exit();
-
     }
 
  else{
@@ -28,7 +27,7 @@ $reg_date=$return_data['reg_date'];
 $mobile=$return_data['mobile'];
 $Account_Balance=$return_data['wallets'];
 $Account_Bonus=$return_data['cashback'];
-$kyc_update=$return_data['kyc_update'];
+// $kyc_update=$return_data['kyc_update'];
 $webhook=$return_data['webhook'];
 $username=$return_data['username'];
 $email=$return_data['email'];
@@ -38,8 +37,8 @@ $sk_token=$return_data['sk_token'];
 $level=$return_data['level'];
 $rating=$return_data['rating'];
 $ref_code=$return_data['ref_code'];
-$admin_access = $return_data['admin_access'];
-$admin_token = $return_data['admin_token'];
+// $admin_access = $return_data['admin_access'];
+// $admin_token = $return_data['admin_token'];
 $security=$return_data['security_pin'];
 
 $acctname=$return_data['acctname'];

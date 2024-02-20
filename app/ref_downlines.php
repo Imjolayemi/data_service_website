@@ -2,13 +2,13 @@
 require("../functions/autoload.php");
 ?>
 
-<div class="alert">
+<div class="alert" style="background-color: white !important;">
 <div class="col-xl-12">
-<div class="alert" style="background-color: #fff;color: blue;">
+<div class="alert" style="background-color: white !important;">
 
         <div id="response" style="text-align: center;">
           <h4>My Downlines</h4>
-          <p style="color: red;font-weight: bold;">This shows the lists of who used your referral code.</p>
+          <p style="color: rgb(113,2,192);font-weight: bold;">This shows the lists of who used your referral code.</p>
         </div>
                 
 </div>
@@ -23,7 +23,7 @@ require("../functions/autoload.php");
           </span>
           <br/>
 
-          <span style="color: red;font-weight: bold;font-size: 39px;">₦ <?php
+          <span style="color: rgb(113,2,192);font-weight: bold;font-size: 39px;">₦ <?php
 //           $host2="localhost";
 // $user2="salaolid_salabeb39028";
 // $pass2="Ayoson@faq67";

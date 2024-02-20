@@ -1,8 +1,8 @@
 <?php
 
-$baseurl = "http://localhost/DataSite/app";
-$mainpage = "http://localhost/DataSite";
-$adminurl = "http://localhost/DataSite/chimax"; 
+$baseurl = "http://localhost/data_service_website/app";
+$mainpage = "http://localhost/data_service_website";
+$adminurl = "http://localhost/data_service_website/chimax"; 
 
 $host="localhost";
 $user="root";
@@ -25,7 +25,7 @@ $admin_email=$return_setting['admin_email'];
 $group_link=$return_setting['group_link'];
 $contact_number=$return_setting['contact_no'];
 $sitetitle=$return_setting['sitename'];
-$token='623289681502a911e583dbd23b48641c6318fa2e9fd8b';
+$token='4b53e8cb47ef1d638b82811c799478e465b2920a6826d';
 
 ///WEB MAIL
 $mail_hostname=$return_setting['mail_hostname'];

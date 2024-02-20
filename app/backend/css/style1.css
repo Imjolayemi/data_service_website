@@ -3412,10 +3412,10 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child::befor
 
 /* line 601, G:/admin_project/8 admin/Analytic/scss/_button.scss */
 .export_btn {
-  background: #FF7A88;
+  background: #291a1b;
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color: white;
   border-radius: 4px;
   padding: 10px 30px;
   display: inline-block;
@@ -3742,8 +3742,8 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > th:first-child::befor
 
 /* line 256, G:/admin_project/8 admin/Analytic/scss/_header.scss */
 .profile_info img {
-  max-width: 42px;
-  max-height: 42px;
+  max-width: 62px;
+  max-height: 62px;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -4154,7 +4154,7 @@ table.dataTable {
   z-index: 999;
   overflow: hidden;
   overflow-y: auto;
-  background: #FFFFFF;
+  background: rgb(113,2,192);
   box-shadow: 0 12px 30px rgba(80, 143, 244, 0.1);
   transition: .3s;
 }
@@ -4200,7 +4200,7 @@ table.dataTable {
 /* line 40, G:/admin_project/8 admin/Analytic/scss/_sidebar.scss */
 .sidebar .logo {
   margin: 0px;
-  background: #F3F6F9;
+  background: white;
   padding: 24px;
   margin-bottom: 20px;
 }
@@ -4506,9 +4506,9 @@ table.dataTable {
 .sidebar #sidebar_menu > li a {
   font-size: 16px;
   font-weight: 400;
-  color: #144339;
+  color: white;
   padding: 0px 25px 0px 0px;
-  background: #fff;
+  background: rgb(113,2,192);
   transition: .3s;
   position: relative;
   z-index: 0;
@@ -4517,24 +4517,20 @@ table.dataTable {
   grid-gap: 15px;
   align-items: center;
   position: relative;
-  background: transparent;
-  color: #8890B5;
   font-family: "Mulish", sans-serif;
   padding: 10px 10px 10px 26px;
-  background: #fff;
-  border-radius: 15px;
 }
 
 /* line 299, G:/admin_project/8 admin/Analytic/scss/_sidebar.scss */
 .sidebar #sidebar_menu > li a:hover {
-  color: #F65365 !important;
-  background: #F8FAFC;
+  color: rgb(113,2,192) !important;
+  background: white;
 }
 
 /* line 303, G:/admin_project/8 admin/Analytic/scss/_sidebar.scss */
 .sidebar #sidebar_menu > li a.active {
-  color: #F65365;
-  background: #F8FAFC;
+  color: white;
+  background: rgb(113,2,192);
   border-radius: 15px;
 }
 
@@ -4557,6 +4553,8 @@ table.dataTable {
   transition: 0.5s;
 }
 
+
+
 /* line 345, G:/admin_project/8 admin/Analytic/scss/_sidebar.scss */
 .sidebar #sidebar_menu > li a:hover::before {
   width: 6px;
@@ -4566,16 +4564,16 @@ table.dataTable {
 
 /* line 353, G:/admin_project/8 admin/Analytic/scss/_sidebar.scss */
 .sidebar #sidebar_menu > li > a {
-  color: #144339;
+  color: white;
 }
 
 /* line 358, G:/admin_project/8 admin/Analytic/scss/_sidebar.scss */
 .sidebar #sidebar_menu > li.mm-active > a {
   background: #fff;
   border-radius: 30px;
-  color: #144339;
+  color: rgb(113,2,192);
   border-radius: 4px 4px 0 0;
-  background: transparent;
+  /* background: transparent; */
 }
 
 /* line 364, G:/admin_project/8 admin/Analytic/scss/_sidebar.scss */
@@ -4608,7 +4606,7 @@ table.dataTable {
 
 /* line 390, G:/admin_project/8 admin/Analytic/scss/_sidebar.scss */
 .sidebar #sidebar_menu > li ul {
-  padding: 0px 0px 5px 40px;
+  padding: 0px 0px 5px 5px;
   background: transparent;
   border-radius: 0 0 4px 4px;
   margin-left: 30px;
@@ -4623,11 +4621,9 @@ table.dataTable {
 /* line 407, G:/admin_project/8 admin/Analytic/scss/_sidebar.scss */
 .sidebar #sidebar_menu > li ul li a {
   font-size: 14px;
-  color: #8890B5;
+  color: white;
   font-weight: 400;
-  padding: 0;
   white-space: nowrap;
-  padding: 0;
   padding: 10px 0 10px 8px !important;
   margin-top: 0;
   margin-left: 0;
@@ -9391,11 +9387,11 @@ canvas#highlights {
 
 /* line 595, G:/admin_project/8 admin/Analytic/scss/_byer_table.scss */
 .social_media_card {
-  background-color: #EEE5FF;
-  background-image: url(../img/shape_2.svg);
+  /* background-color: #EEE5FF; */
+  /* background-image: url(../img/media.svg);
   background-size: cover;
   background-position: top right;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 /* line 601, G:/admin_project/8 admin/Analytic/scss/_byer_table.scss */
@@ -9500,10 +9496,8 @@ canvas#highlights {
 
 /* line 674, G:/admin_project/8 admin/Analytic/scss/_byer_table.scss */
 .sales_card_wrapper {
-  background-color: #F65365;
+  background-color: rgb(113,2,192);
   position: relative;
-  background-image: url(../img/plane_thumb.svg);
-  background-repeat: no-repeat;
   background-size: cover;
   background-size: 100% 58%;
   background-position: top left;
@@ -13513,6 +13507,26 @@ a.pswp__share--download:hover {
   .custom-card .card-footer > div {
     padding: 15px 13px;
   }
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.animated-text {
+  animation: fadeInOut 7s linear infinite;
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */

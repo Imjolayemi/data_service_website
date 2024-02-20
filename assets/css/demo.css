@@ -13,8 +13,9 @@
   height: 38px;
 }
 
-.app-brand-text.demo {
-  font-size: 1.75rem;
+.app-brand-text.demo { 
+  color: white !important;
+  font-size: 2rem;
   letter-spacing: -0.5px;
   text-transform: lowercase;
 }

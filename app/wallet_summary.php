@@ -1,7 +1,7 @@
 <?php require("site_header.php"); ?>
 
 
-<div class="main_content_iner ">
+<div class="main_content_iner" style="background-color: white !important;">
 <div class="container-fluid p-0 sm_padding_15px">
 <div class="row justify-content-center">
 

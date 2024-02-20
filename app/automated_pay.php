@@ -5,7 +5,7 @@
 
         <div id="response" style="text-align: center;">
           <h4>Add Money</h4>
-          <p style="color: red;font-weight: bold;">Transfer money into one of the reserved account below and your wallet will be automatically credited.</p>
+          <p style="color: rgb(113,2,192);font-weight: bold;">Transfer money into one of the reserved account below and your wallet will be automatically credited.</p>
         </div>
                 
 </div>
@@ -20,7 +20,7 @@
           </span>
           <br/>
 
-           <span style="color: red;font-weight: bold;font-size: 39px;">₦ <?php echo number_format($Account_Balance,2); ?></span>
+           <span style="color: rgb(113,2,192); font-weight: bold;font-size: 39px;">₦ <?php echo number_format($Account_Balance,2); ?></span>
          
         </div>
                 
@@ -45,7 +45,7 @@
 
      <div class="alert" style="font-size: 20px;text-align: center;text-transform: uppercase;">
       '.$acctname.' - '.$sitename.'
-    <p style="color: red;font-weight: bold;">2% charges apply to all deposit</p>
+    <p style="color: rgb(113,2,192);font-weight: bold;">2% charges apply to all deposit</p>
     </div><hr/>
 
     <div class="alert" style="font-size: 20px;text-align: center;text-transform: uppercase;">

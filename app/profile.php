@@ -1,7 +1,7 @@
 <?php require("site_header.php"); ?>
 
 
-<div class="main_content_iner overly_inner ">
+<div class="main_content_iner overly_inner " style="background-color: white !important;">
 <div class="container-fluid p-0 ">
 
 <div class="row">
@@ -75,7 +75,7 @@
 <input type="text" class="form-control" value="<?php echo $email; ?>" aria-describedby="basic-addon1">
 </div>
 
-<button class="btn btn-primary" style="width: 100%">UPDATE PROFILE</button>
+<button class="btn btn-primary" style="width: 100%; background-color: rgb(113,2,192);">UPDATE PROFILE</button>
 
 
 <hr>
