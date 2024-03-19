@@ -2,12 +2,21 @@
 
 $baseurl = "http://localhost/data_service_website/app";
 $mainpage = "http://localhost/data_service_website";
-$adminurl = "http://localhost/data_service_website/chimax"; 
+$adminurl = "http://localhost/data_service_website/general"; 
 
 $host="localhost";
 $user="root";
-$pass="";
+$pass=""; 
 $dbanme="datadb";
+
+// $baseurl = "https://generalmart.com.ng/app";
+// $mainpage = "https://generalmart.com.ng";
+// $adminurl = "https://generalmart.com.ng/general"; 
+
+// $host="localhost";
+// $user="xtsdzhrq_us";
+// $pass="B@@-nureei1";
+// $dbanme="xtsdzhrq_datadb";
 
 $con=mysqli_connect($host, $user, $pass, $dbanme);
 if (!$con){die("Error Connecting DB".mysql_error());}

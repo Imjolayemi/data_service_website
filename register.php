@@ -95,7 +95,7 @@ $myrefferal="ADMIN";
 
 
                 <div class="mb-3">
-                  <label for="email" class="form-label">First Name</label>
+                  <label for="email" class="form-label">Enter your full name</label>
                   <input type="hidden" id="myrefferal" value="<?php echo $myrefferal; ?>">
                   <input type="hidden"  id="req_token" value="<?php echo $_SESSION['csrftoken']; ?>">
                   <input

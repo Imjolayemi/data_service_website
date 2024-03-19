@@ -280,7 +280,7 @@
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="pricing-item" style="color:#ffc107">
               <h3 style="color:#ffc107">MTN DATA</h3>
-              <h4><sup>₦</sup>230<span style="color:#ffc107">/ month</span></h4>
+              <h4><sup>₦</sup>270<span style="color:#ffc107">/ month</span></h4>
               <ul>
                 <li><i class="bi bi-check"></i> 1GB</li>
                 <li><i class="bi bi-check"></i> One Month</li>
@@ -295,7 +295,7 @@
           <div style="color: #28a745;" class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="pricing-item">
               <h3 style="color: #28a745;">GLO DATA</h3>
-              <h4><sup>₦</sup>440<span  style="color: #28a745;">/ month</span></h4>
+              <h4><sup>₦</sup>240<span  style="color: #28a745;">/ month</span></h4>
               <ul>
                 <li><i class="bi bi-check"></i> 1GB</li>
                 <li><i class="bi bi-check"></i> One Month</li>
@@ -310,7 +310,7 @@
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="pricing-item">
               <h3 style="color: #dc3545;">AIRTEL DATA</h3>
-              <h4><sup>₦</sup>460<span style="color: #dc3545;">/ month</span></h4>
+              <h4><sup>₦</sup>215<span style="color: #dc3545;">/ month</span></h4>
               <ul>
                 <li><i class="bi bi-check"></i> 1GB</li>
                 <li><i class="bi bi-check"></i> One Month</li>
@@ -325,7 +325,7 @@
           <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="pricing-item">
               <h3  style="color: rgb(10, 236, 10);">9MOBILE DATA</h3>
-              <h4><sup>₦</sup>400<span  style="color: rgb(10, 236, 10);">/ month</span></h4>
+              <h4><sup>₦</sup>114<span  style="color: rgb(10, 236, 10);">/ month</span></h4>
               <ul>
                 <li style="text-align: center;"><i class="bi bi-check"></i> 1GB</li>
                 <li style="text-align: center;"><i class="bi bi-check"></i> One Month</li>

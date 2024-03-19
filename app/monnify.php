@@ -63,7 +63,6 @@ curl_close($ch);
 $datax = json_decode($json, true); 
 $acctName=$datax['responseBody']['accountName']; ////// Return Account Name
 $accountReference=$datax['responseBody']['accountReference'];  // Account Reference
-
 $bankinfos=$datax['responseBody']["accounts"];
 
 $sterlingacctno=$bankinfos[0]['accountNumber'];

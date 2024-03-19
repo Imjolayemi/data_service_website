@@ -122,7 +122,7 @@ left: 4%;
 <ul>
     <!--card_payment-->
 <li><a href="<?php echo $baseurl; ?>/deposit_payment">Deposit/Transfer</a></li>
-<li><a href="<?php echo $baseurl; ?>/automated_pay">Auto Funding (Transfer)</a></li>
+<!-- <li><a href="<?php echo $baseurl; ?>/automated_pay">Auto Funding (Transfer)</a></li> -->
 </ul>
 </li>
 
@@ -319,7 +319,8 @@ left: 4%;
 
 if ($rating ==0){
 echo '<li>
-<a class="CHATBOX_open" onclick="openRate()" href="#"> <img src="backend/img/icon/rate_icon.png" alt="" style="height: 80px; width: 80px; margin-right: -1em"> </a>
+<a class="CHATBOX_open" onclick="openRate()" href="#"> 
+<img src="backend/img/icon/rate_icon.png" alt="" style="height: 80px; width: 80px; margin-right: -1em"> </a>
 </li>';
 }
 ?>
@@ -328,15 +329,15 @@ echo '<li>
 <div class="profile_info">
 <img src="backend/img/profile.jpg" alt="#">
 <div class="profile_info_iner">
-<div class="profile_author_name">
-<p>Welcome </p>
-<h5><?php echo $fullname; ?></h5>
-</div>
-<div class="profile_info_details">
-    <a href="<?php echo $baseurl; ?>/profile">My Profile </a>
-    <a href="<?php echo $baseurl; ?>/change_password">Settings</a>
-    <a href="<?php echo $baseurl; ?>/logout">Log Out </a>
-</div>
+    <div class="profile_author_name">
+        <p>Welcome </p>
+        <h5><?php echo $fullname; ?></h5>
+    </div>
+    <div class="profile_info_details">
+        <a href="<?php echo $baseurl; ?>/profile">My Profile </a>
+        <a href="<?php echo $baseurl; ?>/change_password">Settings</a>
+        <a href="<?php echo $baseurl; ?>/logout">Log Out </a>
+    </div>
 
 </div>
 </div>

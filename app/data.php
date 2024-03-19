@@ -75,7 +75,9 @@ require ("request_pin.php");
 </div>
 
 <br>
- id="basic-addon1"><i class="fa fa-shopping-cart" style="font-size: 25px;"></i></span>
+<div class="input-group mb-3">
+<div class="input-group-text">
+<span id="basic-addon1"><i class="fa fa-shopping-cart" style="font-size: 25px;"></i></span>
 </div>
 <input type="hidden"  id="req_token" value="<?php echo $_SESSION['csrftoken']; ?>">
 <select class="form-control" id="dataplanloader" required>

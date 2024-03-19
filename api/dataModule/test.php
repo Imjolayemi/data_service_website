@@ -7,7 +7,7 @@ $payload=array(
     'mobile' => "08134628953",
     'request_id' => 'REF-UNIQUE72300674352',
     );
-    $url = 'https://abrons.com.ng/app/user/dev_data';
+    $url = 'https://abrons.com.ng/api/data';
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_POST, 1);

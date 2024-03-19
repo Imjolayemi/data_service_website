@@ -53,8 +53,9 @@ if ($notification_mode=="ON"){
 
 <div class="col-xl-12">
     <span style="color:black; font-weight:bold;">
-    <div class="animated-text"><?php if ($scrolling_mode=="ON"){ echo $notification_scroll; } ?> 
-    </div>
+    
+    <marquee class=""><?php if ($scrolling_mode=="ON"){ echo $notification_scroll; } ?> 
+    </marquee>
     </span>
     <div class="alert" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; border-radius: 7px;">
 
